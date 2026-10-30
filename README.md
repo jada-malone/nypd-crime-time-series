@@ -9,6 +9,8 @@ Do the most common offense types in New York City follow a seasonal pattern acro
 
 ## Data
 A cleaned file of NYPD offense records. The analysis uses three fields: `OFNS_DESC` (offense type), `OCC_MONTH` and `OCC_YEAR` (when the offense occurred), filtered to **2024**.
+**Source:** raw records come from the NYPD's public complaint data on NYC Open Data: [NYPD Complaint Data Historic](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i) (`OFNS_DESC` is that dataset's offense field; month and year were derived from the complaint date during cleaning).
+
 The cleaned CSV is about 128 MB, over GitHub's file-size limit, so it isn't stored in this repo. The script expects it as `NYPD_Cleaned 1(in).csv` in the working directory.
 
 ## Approach
